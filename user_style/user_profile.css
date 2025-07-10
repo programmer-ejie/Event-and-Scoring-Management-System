@@ -1,0 +1,177 @@
+.containerB{
+    width: 600px;
+    height: 590px;
+    box-shadow:
+    4px 0 10px rgba(0, 0, 0, 0.2),
+    0 4px 10px rgba(0, 0, 0, 0.2),  
+    4px 0 10px rgba(0, 0, 0, 0.2);
+    margin-top: -40px;
+    margin-left: 160px;
+    position: relative;
+    top: 50px;
+    border-radius: 30px;
+}
+
+li a i{
+    margin-left: 0px;
+}
+
+.profile img{
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    border: black 3px solid;
+}
+
+.profile{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 50px;
+}
+
+.changeProfileButton svg{
+    position: relative;
+    top: 110px;
+}
+
+.changeProfileButton input{
+    display: none;
+}
+
+.input1{
+    display: flex;
+    position:relative;
+    height: 40px;
+    width: 900px;
+    left: 90px;
+    top:100px;
+    
+}
+
+.input1 label{
+    font-size: 11px;
+    position: absolute;
+    left: 3px;
+    top: -17px;
+    
+}
+
+.input2 label{
+    font-size: 11px;
+    position: absolute;
+    left: 93px;
+    top: 303px;
+    
+}
+
+.input3 label{
+    font-size: 11px;
+    position: absolute;
+    left: 93px;
+    top: 373px;
+    
+}
+
+
+
+
+
+#fname,#age,#gmail{
+    box-shadow:
+    4px 0 10px rgb(132, 215, 242),
+    0 4px 10px rgb(132, 215, 242),  
+    4px 0 10px rgb(132, 215, 242);
+    width: 410px;
+
+}
+
+#age {
+    position: relative;
+    left: 90px;
+    top: 130px;
+}
+
+#gmail{
+    position: relative;
+    left: 90px;
+    top: 163px;
+}
+
+#editBtn{
+    position: relative;
+    top: 220px;
+    left: 220px;
+}
+
+.containerC{
+    box-shadow:
+    4px 0 10px rgba(0, 0, 0, 0.2),
+    0 4px 10px rgba(0, 0, 0, 0.2),  
+    4px 0 10px rgba(0, 0, 0, 0.2);
+    width: 410px;
+    position: absolute;
+    top: 10px;
+    left: 820px;
+    border-radius: 30px;
+    height: 270px;
+    
+}
+
+
+.containerD{
+    box-shadow:
+    4px 0 10px rgba(0, 0, 0, 0.2),
+    0 4px 10px rgba(0, 0, 0, 0.2),  
+    4px 0 10px rgba(0, 0, 0, 0.2);
+    width: 410px;
+    position: absolute;
+    top: 331px;
+    left: 820px;
+    border-radius: 30px;
+    height: 270px;
+}
+
+.title{
+    font-size: 40px;
+    letter-spacing: 3px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+     color:rgba(67, 66, 66, 0.817);
+}
+
+
+.icon{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    color:rgba(67, 66, 66, 0.817);
+
+}
+.count h2{
+    font-size: 50px;
+    justify-content: center;
+    display: flex;
+    margin-top: 10px;
+    color:rgba(67, 66, 66, 0.817);
+}
+
+
+.info{
+    font-size: 10px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    padding-left: 20px;
+   position: relative;
+   top: 10px;
+}
+
+#profile{
+    background-color: #695CFE;
+    border-radius: 10px;
+}
+
+

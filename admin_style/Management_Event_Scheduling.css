@@ -1,0 +1,114 @@
+/* Common styles for all screen sizes */
+.container {
+    max-width: 100%;
+    padding: 10px;
+    margin-top: -60px;
+}
+
+#add_button {
+    display: flex;
+    margin-top: 100px;
+    width: 170px;
+    margin-left: 39px;
+}
+
+
+
+#add_button h6 {
+    font-size: 11px;
+    margin-top: 7px;
+    padding-left: 20px;
+    letter-spacing: 2px;
+}
+
+.container.menus {
+    display: flex;
+    padding: 5px;
+}
+
+.settings {
+    margin-left: 100px;
+}
+
+
+
+.search {
+    display: flex;
+    position: relative;
+    left: 760px;
+    top: 160px;
+}
+
+.search input {
+    box-shadow: 0 0 10px rgba(0, 0, 255, 0.5);
+    margin-left: 350px;
+    width: 250px;
+}
+
+.search input, .search button{
+    position: relative;
+    top: 20px;
+}
+
+.search button {
+    width: 179px;
+}
+
+/* Media query for small screens */
+@media screen and (max-width: 768px) {
+    #add_button {
+        margin-top: 50px;
+        margin-left: 10px;
+    }
+
+    .search {
+        left: 10px;
+        top: 20px;
+    }
+
+    .search button {
+        width: 100%;
+    }
+
+    /* Add more styles as needed... */
+}
+
+/* Media query for larger screens */
+@media screen and (min-width: 1200px) {
+    #add_button {
+        margin-top: 150px;
+    }
+
+    .search {
+        left: 560px;
+        top: 127px;
+    }
+    
+    /* Add more styles as needed... */
+}
+
+
+li a i{
+    margin-left: 0px;
+}
+
+#reportLog{
+    margin-top: -44px;
+    margin-left: 240px;  
+    width: 170px;
+    height:44px;
+    display: flex;
+    justify-content: center;
+}
+
+#reportLog h6{
+    font-size: 11px;
+    margin-top: 7px;
+    padding-left: 20px;
+    letter-spacing: 2px;
+}
+
+#management{
+    background-color: #695CFE;
+    border-radius: 10px;    
+}
